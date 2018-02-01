@@ -1,6 +1,6 @@
 FROM centos:6
 
-MAINTAINER lokori <antti.virtanen@iki.fi>
+MAINTAINER vizog <vahid.zoghi@gmail.com>
 
 RUN yum update -y && yum install -y java-1.8.0-openjdk &&  yum install -y java-1.8.0-openjdk-devel && yum clean all
 
